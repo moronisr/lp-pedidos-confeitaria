@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Doce Mem&oacute;ria | Bolos, doces e salgados em Belém e região metropolitana desde 2004</title>
+<meta name="description" content="Bolos, doces, salgados e pães feitos todos os dias desde 2004. 4 unidades em Belém e região metropolitana. Peça pelo WhatsApp e receba em até 4h.">
+<meta name="theme-color" content="#100D0B">
+<link rel="icon" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22270%22%20height%3D%22270%22%20viewBox%3D%220%200%20270%20270%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22246%22%20height%3D%22246%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ELOGO%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Doce Mem&oacute;ria. Mais que sabor, uma memória afetiva">
+<meta property="og:description" content="Desde 2004 em Belém. Bolos, doces, salgados e pães. Peça pelo WhatsApp e receba em até 4h.">
+<meta property="og:image" content="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22270%22%20height%3D%22270%22%20viewBox%3D%220%200%20270%20270%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22246%22%20height%3D%22246%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ELOGO%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+ --bg:#100D0B; --bg2:#191310; --card:#211913; --line:#3A2C21;
+ --gold:#F2B705; --gold-lt:#FFD34E; --orange:#E8710A;
+ --cream:#F8F2E7; --muted:#BCA893; --whats:#25D366;
+ --r:16px; --max:1120px;
+ --font-d:'Anton',Impact,'Arial Narrow',sans-serif;
+ --font-b:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+ margin:0;background:var(--bg);color:var(--cream);font-family:var(--font-b);
+ font-size:16px;line-height:1.55;overflow-x:hidden;
+ padding-bottom:env(safe-area-inset-bottom);
+}
+img,video{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 18px}
+.d{font-family:var(--font-d);font-weight:400;letter-spacing:.5px;line-height:1.02;text-transform:uppercase}
+h2.d{font-size:clamp(28px,7.5vw,46px);margin:0 0 10px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 10px}
+.lead{color:var(--muted);font-size:clamp(15px,3.9vw,18px);margin:0 auto;max-width:62ch}
+section{padding:56px 0;position:relative}
+.center{text-align:center}
+
+/* ===== stripes texture (identidade dos banners) ===== */
+.stripes:before{
+ content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+ background:repeating-linear-gradient(90deg,rgba(242,183,5,.045) 0 2px,transparent 2px 26px);
+}
+
+/* ===== BOTÕES ===== */
+.btn{
+ display:flex;align-items:center;justify-content:center;gap:10px;
+ min-height:58px;padding:14px 22px;border-radius:999px;font-weight:800;
+ font-size:clamp(15px,4vw,17px);text-align:center;border:2px solid transparent;
+ transition:transform.15s ease,box-shadow.15s ease,background.15s ease;
+ width:100%;
+}
+.btn:active{transform:scale(.98)}
+.btn-w{background:var(--whats);color:#06301A;box-shadow:0 10px 26px rgba(37,211,102,.28)}
+.btn-w:hover{background:#2ee775}
+.btn-g{background:linear-gradient(180deg,var(--gold-lt),var(--gold));color:#241A08;box-shadow:0 10px 26px rgba(242,183,5,.24)}
+.btn-o{border-color:var(--gold);color:var(--gold);background:transparent}
+.btn-o:hover{background:rgba(242,183,5,.1)}
+.btn svg{flex:0 0 auto}
+.btns{display:grid;gap:12px;max-width:460px;margin:22px auto 0}
+@media(min-width:720px){.btns{grid-template-columns:1fr 1fr;max-width:620px}}
+
+/* ===== TOPBAR ===== */
+header.top{
+ position:sticky;top:0;z-index:60;background:rgba(16,13,11,.92);
+ backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.top img{height:44px;width:44px;border-radius:50%}
+.top .name{font-family:var(--font-d);font-size:17px;letter-spacing:.06em;text-transform:uppercase;color:var(--cream)}
+.top .name small{display:block;font-family:var(--font-b);font-size:9.5px;letter-spacing:.22em;color:var(--gold);font-weight:700}
+.top .btn{width:auto;min-height:42px;padding:8px 16px;font-size:13.5px}
+@media(max-width:520px){.top .btn span{display:none}.top .btn{padding:8px 14px}}
+
+/* ===== HERO ===== */
+.hero{padding:34px 0 44px;background:
+ radial-gradient(120% 70% at 50% 0%,rgba(242,183,5,.14),transparent 62%),
+ linear-gradient(180deg,#140F0C,#100D0B);overflow:hidden}
+.hero .logo{width:112px;height:112px;margin:0 auto 16px;border-radius:50%;
+ box-shadow:0 0 0 2px rgba(242,183,5,.35),0 14px 44px rgba(0,0,0,.6)}
+.hero h1{font-family:var(--font-d);font-weight:400;text-transform:uppercase;
+ font-size:clamp(31px,8.6vw,60px);line-height:.98;margin:0 0 14px;letter-spacing:.5px}
+.hero h1 em{font-style:normal;color:var(--gold);display:block}
+.hero .sub{color:var(--muted);font-size:clamp(15px,4vw,18px);max-width:54ch;margin:0 auto}
+
+.videoframe{
+ position:relative;margin:24px auto 0;width:min(300px,78vw);aspect-ratio:9/16;
+ border-radius:22px;overflow:hidden;background:#000;
+ border:2px solid rgba(242,183,5,.45);
+ box-shadow:0 0 0 8px rgba(242,183,5,.07),0 26px 60px rgba(0,0,0,.7);
+}
+.videoframe video{width:100%;height:100%;object-fit:cover}
+.videoframe .badge{
+ position:absolute;left:10px;top:10px;background:rgba(16,13,11,.78);backdrop-filter:blur(6px);
+ color:var(--gold);font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+ padding:6px 11px;border-radius:999px;border:1px solid rgba(242,183,5,.4)}
+.sound{position:absolute;right:10px;bottom:10px;width:40px;height:40px;border-radius:50%;
+ background:rgba(16,13,11,.8);border:1px solid rgba(242,183,5,.4);color:var(--gold);
+ display:grid;place-items:center;cursor:pointer;font-size:16px}
+@media(min-width:860px){
+.hero .in{display:grid;grid-template-columns:1.05fr.95fr;align-items:center;gap:44px;text-align:left}
+.hero .in .copy{order:1}.hero .in .vid{order:2}
+.hero .logo{margin:0 0 18px}.hero .sub{margin:0}
+.videoframe{width:330px;margin:0 auto}
+.hero .btns{margin-left:0;margin-right:0}
+}
+
+/* ===== TRUST STRIP ===== */
+.trust{border-block:1px solid var(--line);background:var(--bg2);padding:0}
+.trust .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);padding:0;max-width:var(--max)}
+@media(min-width:720px){.trust .wrap{grid-template-columns:repeat(4,1fr)}}
+.trust .i{background:var(--bg2);padding:18px 12px;text-align:center}
+.trust b{display:block;font-family:var(--font-d);font-size:clamp(20px,5.4vw,28px);color:var(--gold);letter-spacing:.03em}
+.trust span{font-size:11.5px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+
+/* ===== CARDS DE PRODUTO ===== */
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:600px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+ display:flex;flex-direction:column;position:relative}
+.card .ph{aspect-ratio:1/1;overflow:hidden;background:#0B0908;position:relative}
+.card .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.card .bd{padding:16px 16px 18px;display:flex;flex-direction:column;flex:1;gap:8px}
+.card h3{font-family:var(--font-d);font-size:20px;margin:0;letter-spacing:.04em;text-transform:uppercase}
+.card p{margin:0;color:var(--muted);font-size:14.5px;flex:1}
+.price{display:flex;align-items:baseline;gap:8px;margin-top:4px}
+.price b{font-family:var(--font-d);font-size:27px;color:var(--gold);letter-spacing:.02em}
+.price s{color:#7E6E5E;font-size:14px}
+.tag{align-self:flex-start;background:var(--orange);color:#1A0E03;
+ font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:5px 11px;border-radius:999px}
+.card .mini{min-height:48px;font-size:14.5px;margin-top:4px}
+
+/* ===== CATEGORIAS ===== */
+.cats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:26px}
+@media(min-width:720px){.cats{grid-template-columns:repeat(3,1fr)}}
+.cat{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:17px 16px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;font-weight:600;font-size:15px;
+  transition:border-color .15s,background .15s}
+.cat .chev{color:var(--gold);opacity:.55;flex:0 0 auto}
+.cat:hover .chev{opacity:1}
+.cat:hover{border-color:var(--gold);background:#201914}
+
+/* ===== BENEFÍCIOS ===== */
+.bens{display:grid;gap:12px;grid-template-columns:1fr;margin-top:26px}
+@media(min-width:640px){.bens{grid-template-columns:1fr 1fr}}
+@media(min-width:960px){.bens{grid-template-columns:repeat(3,1fr)}}
+.ben{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+ border-radius:12px;padding:18px}
+.ben h4{margin:0 0 6px;font-size:16.5px;font-weight:800}
+.ben p{margin:0;color:var(--muted);font-size:14.5px}
+
+/* ===== PROVA SOCIAL ===== */
+.ig{background:var(--bg2)}
+.igbar{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:8px;
+ font-size:14px;color:var(--muted)}
+.igbar b{color:var(--cream)}
+.quotes{display:grid;gap:12px;grid-template-columns:1fr;margin-top:26px}
+@media(min-width:640px){.quotes{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.quotes{grid-template-columns:repeat(3,1fr)}}
+.q{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.q p{margin:0 0 12px;font-size:15px;line-height:1.55}
+.q .who{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--muted)}
+.q .av{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--orange));
+ display:grid;place-items:center;color:#1A0E03;font-weight:800;font-size:13px;flex:0 0 auto}
+.q.big{grid-column:1/-1;border-color:rgba(242,183,5,.45);background:
+ linear-gradient(180deg,rgba(242,183,5,.07),var(--card))}
+.q.big p{font-size:clamp(16px,4.2vw,19px);line-height:1.5}
+
+/* ===== PASSOS ===== */
+.steps{display:grid;gap:14px;grid-template-columns:1fr;margin-top:28px;counter-reset:s}
+@media(min-width:800px){.steps{grid-template-columns:repeat(3,1fr)}}
+.step{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px 18px;position:relative}
+.step:before{counter-increment:s;content:counter(s);font-family:var(--font-d);font-size:44px;
+ color:rgba(242,183,5,.24);position:absolute;right:16px;top:8px;line-height:1}
+.step h4{margin:0 0 6px;font-size:17px;font-weight:800}
+.step p{margin:0;color:var(--muted);font-size:14.5px}
+
+/* ===== FAQ ===== */
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+details[open]{border-color:rgba(242,183,5,.45)}
+summary{padding:17px 46px 17px 18px;cursor:pointer;font-weight:700;font-size:15.5px;
+ list-style:none;position:relative}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"";position:absolute;right:20px;top:calc(50% - 5px);width:9px;height:9px;
+  border-right:2px solid var(--gold);border-bottom:2px solid var(--gold);
+  transform:rotate(45deg);transition:transform .2s ease,top .2s ease}
+details[open] summary:after{transform:rotate(-135deg);top:calc(50% - 1px)}
+details.a{padding:0 18px 18px;color:var(--muted);font-size:15px}
+.confirmar{border-bottom:1px dashed var(--orange);color:var(--gold-lt)}
+
+/* ===== UNIDADES / MAPA ===== */
+.units{display:grid;gap:10px;grid-template-columns:1fr;margin-bottom:18px}
+@media(min-width:720px){.units{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.units{grid-template-columns:repeat(4,1fr)}}
+.unit{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;
+ cursor:pointer;text-align:left;font:inherit;color:inherit;transition:border-color.15s}
+.unit[aria-selected="true"]{border-color:var(--gold);background:linear-gradient(180deg,rgba(242,183,5,.1),var(--card))}
+.unit b{display:block;font-family:var(--font-d);font-size:17px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:4px}
+.unit span{display:block;color:var(--muted);font-size:13.5px}
+.mapbox{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:#0B0908;
+ aspect-ratio:16/12;max-height:420px}
+@media(min-width:720px){.mapbox{aspect-ratio:16/7}}
+.mapbox iframe{width:100%;height:100%;border:0;filter:grayscale(.15) contrast(1.05)}
+.mapctas{display:grid;gap:10px;margin-top:14px}
+@media(min-width:720px){.mapctas{grid-template-columns:1fr 1fr;max-width:620px}}
+
+/* ===== CTA FINAL ===== */
+.final{background:
+ radial-gradient(120% 90% at 50% 0%,rgba(242,183,5,.18),transparent 60%),
+ linear-gradient(180deg,#171009,#100D0B);border-top:1px solid var(--line);text-align:center}
+.final h2{font-size:clamp(30px,8.4vw,54px)}
+.final .lead{margin-bottom:4px}
+
+/* ===== RODAPÉ ===== */
+footer{background:#0B0908;border-top:1px solid var(--line);padding:34px 0 108px;text-align:center;font-size:13px;color:var(--muted)}
+footer img{width:64px;height:64px;margin:0 auto 14px;border-radius:50%;opacity:.9}
+footer a{color:var(--gold)}
+.fnav{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin:14px 0}
+
+/* ===== BARRA FIXA MOBILE ===== */
+.sticky{
+ position:fixed;left:0;right:0;bottom:0;z-index:70;padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+ background:rgba(16,13,11,.94);backdrop-filter:blur(12px);border-top:1px solid var(--line);
+ display:grid;grid-template-columns:1fr;gap:8px
+}
+.sticky .btn{min-height:52px}
+@media(min-width:860px){.sticky{display:none}footer{padding-bottom:34px}}
+
+/* ===== reveal ===== */
+.rv{opacity:0;transform:translateY(14px)}
+.rv.on{opacity:1;transform:none;transition:opacity.55s ease,transform.55s ease}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- ================= TOPBAR ================= -->
+<header class="top">
+  <div class="wrap">
+    <a href="#topo" style="display:flex;align-items:center;gap:10px">
+      <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22270%22%20height%3D%22270%22%20viewBox%3D%220%200%20270%20270%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22246%22%20height%3D%22246%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ELOGO%3C/text%3E%3C/svg%3E" alt="Doce Mem&oacute;ria">
+      <span class="name">Doce Mem&oacute;ria<small>Desde 2004</small></span>
+    </a>
+    <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener" data-cta="topbar">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3.1-.2-.3c-.9-1.4-1.3-2.9-1.3-4.5 0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.7 8.5-8.3 8.5z"/></svg>
+      <span>Pedir no WhatsApp</span>
+    </a>
+  </div>
+</header>
+
+<!-- ================= 1. HERO ================= -->
+<section class="hero stripes" id="topo" style="padding-top:34px">
+  <div class="wrap in">
+    <div class="copy center">
+      <img class="logo" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22270%22%20height%3D%22270%22%20viewBox%3D%220%200%20270%20270%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22246%22%20height%3D%22246%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ELOGO%3C/text%3E%3C/svg%3E" alt="Logo Doce Mem&oacute;ria" width="112" height="112">
+      <p class="eyebrow">Belém e região metropolitana · Desde 2004</p>
+      <h1>Mais que sabor,<em>uma memória afetiva</em></h1>
+      <p class="sub">Bolos, doces, salgados e pães <b style="color:var(--cream)">produzidos todos os dias</b> nas nossas cozinhas. Peça pelo WhatsApp em menos de 1 minuto e receba em casa, ou retire em uma das 4 unidades.</p>
+      <div class="btns">
+        <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener" data-cta="hero-whats">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3.1-.2-.3c-.9-1.4-1.3-2.9-1.3-4.5 0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.7 8.5-8.3 8.5z"/><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.5-.3z"/></svg>
+ Pedir agora no WhatsApp
+        </a>
+        <a class="btn btn-o" href="#produtos" data-cta="hero-cardapio">Ver produtos e preços</a>
+      </div>
+      <p style="font-size:12.5px;color:var(--muted);margin:12px 0 0">Atendimento no horário da loja. Entrega e retirada.</p>
+    </div>
+
+    <div class="vid">
+      <div class="videoframe">
+        <span class="badge">Feito hoje</span>
+        <video id="heroVideo" autoplay muted loop playsinline preload="metadata"
+ poster="data:image/jpeg;base64,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"
+ src="assets/bolos-hero-loop-web.mp4"></video>
+        <button class="sound" id="soundBtn" aria-label="Ativar som"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M16.5 8.5 15 10l2 2-2 2 1.5 1.5 2-2 2 2L22 14l-2-2 2-2L20.5 8.5l-2 2z"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BARRA DE CONFIANÇA ================= -->
+<div class="trust">
+  <div class="wrap">
+    <div class="i"><b>2004</b><span>Desde</span></div>
+    <div class="i"><b>195 mil</b><span>Seguidores</span></div>
+    <div class="i"><b>4</b><span>Unidades</span></div>
+    <div class="i"><b>Até 4h</b><span>Entrega</span></div>
+  </div>
+</div>
+
+<!-- ================= 2. PRODUTOS ================= -->
+<section id="produtos">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:8px">
+      <p class="eyebrow">Os mais pedidos</p>
+      <h2 class="d">Escolha o seu e peça em 1 minuto</h2>
+      <p class="lead">Preços à vista, sem surpresa. É só clicar no botão do produto que o pedido já vai preenchido no WhatsApp.</p>
+    </div>
+
+    <div class="grid rv" style="margin-top:28px">
+
+      <article class="card">
+        <div class="ph"><img loading="lazy" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22776%22%20height%3D%22576%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ECombo%20Dose%20Dupla%3C/text%3E%3C/svg%3E" alt="Combo Dose Dupla: dois bolos simples e uma Coca-Cola de 2 litros"></div>
+        <div class="bd">
+          <h3>Combo Dose Dupla</h3>
+          <p class="mini">Dois bolos simples e uma Coca-Cola de 2 litros. O bastante para a família toda repetir.</p>
+          <div class="price"><b>R$ 59</b><span style="color:var(--muted);font-size:13px">à vista</span></div>
+          <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20o%20Combo%20Dose%20Dupla%20(R%24%2059)%20%E2%80%94%202%20bolos%20simples%20%2B%201%20Coca%202L." target="_blank" rel="noopener" data-cta="prod-combo-dose-dupla">Quero esse</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img loading="lazy" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22776%22%20height%3D%22576%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EEmpad%C3%A3o%20de%20frango%20de%2030cm%20com%20mass%3C/text%3E%3C/svg%3E" alt="Empadão de frango de 30cm com massa trançada"></div>
+        <div class="bd">
+          <span class="tag">Mais pedido</span>
+          <h3>Empadão de Frango 30cm</h3>
+          <p class="mini">O clássico da casa. Massa amanteigada trançada, recheio generoso de frango e 30 centímetros de diâmetro.</p>
+          <div class="price"><b>R$ 70</b><span style="color:var(--muted);font-size:13px">à vista</span></div>
+          <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20o%20Empad%C3%A3o%20de%20Frango%2030cm%20(R%24%2070)." target="_blank" rel="noopener" data-cta="prod-empadao-frango">Quero esse</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img loading="lazy" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22776%22%20height%3D%22576%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ECombo%20Ninho%3C/text%3E%3C/svg%3E" alt="Combo Ninho: bolo Ninho de 20 centímetros e prato de canudões recheados"></div>
+        <div class="bd">
+          <h3>Combo Ninho</h3>
+          <p class="mini">Um bolo Ninho de 20 centímetros e 35 canudões, com recheio de queijo ou frango à sua escolha.</p>
+          <div class="price"><b>R$ 90</b><span style="color:var(--muted);font-size:13px">à vista</span></div>
+          <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20o%20Combo%20Ninho%20(R%24%2090)%20%E2%80%94%201%20bolo%20Ninho%2020cm%20%2B%2035%20canud%C3%B5es." target="_blank" rel="noopener" data-cta="prod-combo-ninho">Quero esse</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img loading="lazy" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22776%22%20height%3D%22576%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ECombo%20Belga%3C/text%3E%3C/svg%3E" alt="Combo Belga: bolo de cenoura com cobertura de chocolate e 50 docinhos"></div>
+        <div class="bd">
+          <h3>Combo Belga</h3>
+          <p class="mini">Um bolo Belga de cenoura com cobertura de chocolate e 50 docinhos variados.</p>
+          <div class="price"><b>R$ 90</b><span style="color:var(--muted);font-size:13px">à vista</span></div>
+          <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20o%20Combo%20Belga%20(R%24%2090)%20%E2%80%94%201%20bolo%20belga%20de%20cenoura%20%2B%2050%20docinhos." target="_blank" rel="noopener" data-cta="prod-combo-belga">Quero esse</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img loading="lazy" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22776%22%20height%3D%22576%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ECombo%20Petisco%3C/text%3E%3C/svg%3E" alt="Combo Petisco: torta de calabresa, canudinhos, bolo confeitado e refrigerante de 2 litros"></div>
+        <div class="bd">
+          <h3>Combo Petisco</h3>
+          <p class="mini">Um bolo confeitado de 20 centímetros, uma torta de calabresa de 20 centímetros, um prato de canudinho com recheio de frango ou queijo cuia e um refrigerante de 2 litros.</p>
+          <div class="price"><b>R$ 155</b><span style="color:var(--muted);font-size:13px">à vista</span></div>
+          <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20o%20Combo%20Petisco%20(R%24%20155)." target="_blank" rel="noopener" data-cta="prod-combo-petisco">Quero esse</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img loading="lazy" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22776%22%20height%3D%22576%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EKit%20Festa%20para%2020%20pessoas%3C/text%3E%3C/svg%3E" alt="Kit Festa para 20 pessoas: bolo grande, quiche de frango, pão de batata, 100 docinhos e dois refrigerantes"></div>
+        <div class="bd">
+          <span class="tag">Festa completa</span>
+          <h3>Kit Festa · 20 Pessoas</h3>
+          <p class="mini">Um bolo grande, uma quiche de frango, um pão de batata, dois pratos com 50 docinhos cada e dois Guaraná de 2 litros. <b style="color:var(--gold-lt)">Sai a R$ 16 por convidado.</b></p>
+          <div class="price"><b>R$ 319</b><span style="color:var(--muted);font-size:13px">à vista</span></div>
+          <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20o%20Kit%20Festa%20de%2020%20pessoas%20(R%24%20319)." target="_blank" rel="noopener" data-cta="prod-kit-festa-20">Quero esse</a>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="center" style="color:var(--muted);font-size:13px;margin:18px 0 0">Preços e disponibilidade podem variar por unidade e por data de produção.</p>
+
+    <p class="eyebrow center" style="margin:38px 0 0">Também temos</p>
+    <div class="cats">
+      <a class="cat" href="#" target="_blank" rel="noopener"><span>Bolos</span><svg class="chev" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+      <a class="cat" href="#" target="_blank" rel="noopener"><span>Doces</span><svg class="chev" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+      <a class="cat" href="#" target="_blank" rel="noopener"><span>Salgados</span><svg class="chev" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+      <a class="cat" href="#" target="_blank" rel="noopener"><span>Pães</span><svg class="chev" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+      <a class="cat" href="#" target="_blank" rel="noopener"><span>Tortas e Empadão</span><svg class="chev" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+      <a class="cat" href="#" target="_blank" rel="noopener"><span>Kit Festa</span><svg class="chev" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+    </div>
+
+    <div class="btns">
+      <a class="btn btn-g" href="#" target="_blank" rel="noopener" data-cta="cardapio-completo">Ver cardápio completo</a>
+      <a class="btn btn-o" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20montar%20um%20kit%20personalizado." target="_blank" rel="noopener" data-cta="montar-kit">Montar meu kit</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. DIFERENCIAIS ================= -->
+<section style="background:var(--bg2);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">Por que a Doce Mem&oacute;ria</p>
+      <h2 class="d">20 anos fazendo bolo<br>do jeito que Belém gosta</h2>
+    </div>
+    <div class="bens rv">
+      <div class="ben"><h4>Produção diária, não congelado de semanas</h4><p>Nossa equipe começa cedo todo dia para produzir, organizar e abastecer as unidades. Você recebe fresquinho.</p></div>
+      <div class="ben"><h4>Desde 2004 na mesa dos paraenses</h4><p>Mais de 20 anos de receita, ajuste e constância. Não é tendência: é tradição que a cidade já testou.</p></div>
+      <div class="ben"><h4>4 unidades para você escolher</h4><p>Centro, Jardim, Central e região metropolitana. Sempre tem uma perto de você.</p></div>
+      <div class="ben"><h4>Entrega em até 4 horas</h4><p>Delivery próprio pelo nosso cardápio digital, a partir de R$ 7,00, além do app de delivery. Pediu, chegou.</p></div>
+      <div class="ben"><h4>Da fatia ao kit de festa completo</h4><p>Bolo de aniversário, salgados, docinhos, empadão e refrigerante. Uma conversa resolve a festa inteira.</p></div>
+      <div class="ben"><h4>195 mil pessoas acompanham</h4><p>Uma comunidade que comenta, marca amigo e volta. A melhor propaganda continua sendo o cliente.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. PROVA SOCIAL ================= -->
+<section class="ig" id="depoimentos">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">Prova social</p>
+      <h2 class="d">Quem já provou, conta</h2>
+      <div class="igbar">
+        <span>Comentários reais de clientes no</span>
+        <a href="#" target="_blank" rel="noopener"><b>@docememoria</b></a>
+      </div>
+    </div>
+
+    <div class="quotes rv">
+      <div class="q big">
+        <p>“Passando aqui só para deixar um elogio do bolo de aniversário que comprei. A família inteira amou demais o bolo, eu que não sou chegada em doce fui comer um pedaço de tanto que vi todos elogiando e realmente é perfeito. <b>Só comprarei com vcs agora.</b>”</p>
+        <div class="who"><span class="av">J</span> @jaqueline_pantoja · Instagram</div>
+      </div>
+
+      <div class="q"><p>“O docinho casadinho é enorme e de comer rezando.”</p>
+        <div class="who"><span class="av">G</span> @dra.gabrielaaraujofreitas</div></div>
+
+      <div class="q"><p>“A qualidade e os valores que são maravilhosos”</p>
+        <div class="who"><span class="av">V</span> @vitoria_regiapaz_</div></div>
+
+      <div class="q"><p>“Essa é a propaganda que fala por si próprio.”</p>
+        <div class="who"><span class="av">S</span> @sergioluism1967</div></div>
+
+      <div class="q"><p>“Pães perfeitoooos!!”</p>
+        <div class="who"><span class="av">C</span> @ccarolinebatista</div></div>
+
+      <div class="q"><p>“Tudo perfeito”</p>
+        <div class="who"><span class="av">T</span> @t.oliveirase</div></div>
+
+      <div class="q"><p>“Tudo de bom!!”</p>
+        <div class="who"><span class="av">S</span> @serrayasmin</div></div>
+
+      <div class="q"><p>“Saborososssss”</p>
+        <div class="who"><span class="av">B</span> @bruna.pam</div></div>
+
+      <div class="q"><p>“Só delícias”</p>
+        <div class="who"><span class="av">C</span> @claudia_bouth</div></div>
+    </div>
+
+    <div class="btns">
+      <a class="btn btn-o" href="#" target="_blank" rel="noopener" data-cta="ver-instagram">Ver mais no Instagram</a>
+      <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vi%20os%20depoimentos%20no%20site%20e%20quero%20pedir." target="_blank" rel="noopener" data-cta="social-whats">Quero provar também</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5. COMO PEDIR ================= -->
+<section id="como-pedir">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">Simples assim</p>
+      <h2 class="d">Como pedir em 3 passos</h2>
+      <p class="lead">Sem cadastro, sem app, sem complicação.</p>
+    </div>
+    <div class="steps rv">
+      <div class="step"><h4>Escolha o que quer</h4><p>Bolo, kit de festa, salgados ou pães. Se estiver na dúvida, a gente ajuda a montar.</p></div>
+      <div class="step"><h4>Chame no WhatsApp</h4><p>Clique no botão e a mensagem já vai pronta. Confirmamos itens, valor, prazo e forma de pagamento.</p></div>
+      <div class="step"><h4>Receba ou retire</h4><p>Entrega em até 4h na sua casa ou retirada rápida na unidade mais perto de você.</p></div>
+    </div>
+    <div class="btns">
+      <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido." target="_blank" rel="noopener" data-cta="passos-whats">Começar meu pedido</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. FAQ ================= -->
+<section style="background:var(--bg2);border-block:1px solid var(--line)" id="faq">
+  <div class="wrap" style="max-width:820px">
+    <div class="center">
+      <p class="eyebrow">Dúvidas frequentes</p>
+      <h2 class="d">Antes de pedir</h2>
+    </div>
+    <div style="margin-top:26px">
+      <details open><summary>Quanto custa um bolo?</summary><div class="a">Nesta página os combos com bolo começam em <b>R$ 59</b>, com dois bolos e um refrigerante e o Bolo Confeitado de 20cm, que serve até 15 pessoas, sai por <b>R$ 62</b>. No cardápio completo há opções a partir de <b>R$ 35</b> e kits de festa a partir de <b>R$ 138</b>. No WhatsApp confirmamos o valor final antes de você fechar o pedido.</div></details>
+
+      <details><summary>Vocês entregam? Qual o prazo e a taxa?</summary><div class="a">Sim. Pelo nosso cardápio digital a entrega sai <b>em até 4 horas</b>, com taxa <b>a partir de R$ 7,00</b>, variando conforme o bairro. Também atendemos pelos aplicativos de delivery. Para retirada, é só escolher a unidade mais próxima.</div></details>
+
+      <details><summary>Quais são os endereços das unidades?</summary><div class="a">São quatro lojas. <b>Centro</b>, na Av. das Flores, 100, em Belém. <b>Jardim</b>, na Rodolfo Chermont, 398, em Belém. <b>Central</b>, na Av. Central, 200, em Belém. E <b>região metropolitana</b>, na Av. do Parque, 300. Veja o mapa e trace a rota na seção <a href="#unidades" style="color:var(--gold)">Onde nos encontrar</a>.</div></details>
+
+      <details><summary>Todos os produtos estão disponíveis em todas as unidades?</summary><div class="a">A linha principal está em todas as lojas, mas alguns itens, como tamanhos específicos de empadão e tortas, podem variar por unidade e por dia de produção. Antes de sair de casa, mande uma mensagem no WhatsApp da unidade: confirmamos a disponibilidade na hora.</div></details>
+
+      <details><summary>Com quanta antecedência preciso encomendar um bolo de festa?</summary><div class="a">Bolos personalizados e kits de festa precisam de <span class="confirmar">antecedência mínima a confirmar</span>. Itens de pronta entrega saem no mesmo dia, conforme a produção. Para datas de fim de semana e feriado, recomendamos reservar assim que tiver a data.</div></details>
+
+      <details><summary>Quais formas de pagamento vocês aceitam?</summary><div class="a">Aceitamos <span class="confirmar">Pix, cartões e dinheiro (confirmar bandeiras e parcelamento)</span>. No pedido pelo WhatsApp combinamos a forma de pagamento antes da produção.</div></details>
+
+      <details><summary>Qual o horário de funcionamento?</summary><div class="a"><span class="confirmar">Horário de funcionamento de cada unidade a confirmar</span>. Fora do horário, você pode deixar o pedido agendado no cardápio digital que a gente prepara e envia no horário combinado.</div></details>
+
+      <details><summary>Posso montar meu próprio kit?</summary><div class="a">Pode. Temos a opção <b>Monte Seu Kit</b> (a partir de R$ 138) e também montamos sob medida pelo WhatsApp: você diz quantas pessoas e o orçamento, e a gente sugere a combinação que rende mais.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7. LOCALIZAÇÃO ================= -->
+<section id="unidades">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:22px">
+      <p class="eyebrow">Onde nos encontrar</p>
+      <h2 class="d">4 unidades em Belém e região metropolitana</h2>
+      <p class="lead">Toque na unidade para ver no mapa e traçar a rota.</p>
+    </div>
+
+    <div class="units" role="tablist">
+      <button class="unit" role="tab" aria-selected="true"
+ data-addr="Doce Memória, Avenida das Flores, 100, Centro, Belém - PA, 66065-267"
+ data-zap="5500000000000">
+        <b>Centro</b><span>Av. das Flores, 100</span><span>Belém, PA. CEP 66065-267</span></button>
+
+      <button class="unit" role="tab" aria-selected="false"
+ data-addr="Doce Memória, Rodolfo Chermont, 398, Jardim, Belém - PA"
+ data-zap="5500000000000">
+        <b>Jardim</b><span>Rodolfo Chermont, 398</span><span>Belém, PA</span></button>
+
+      <button class="unit" role="tab" aria-selected="false"
+ data-addr="Doce Memória, Avenida Central, 10778, Belém - PA"
+ data-zap="5500000000000">
+        <b>Central</b><span>Av. Central, 200</span><span>Belém, PA</span></button>
+
+      <button class="unit" role="tab" aria-selected="false"
+ data-addr="Doce Memória, Avenida do Parque, 2320, região metropolitana - PA"
+ data-zap="5500000000000">
+        <b>região metropolitana</b><span>Av. do Parque, 300</span><span>região metropolitana, PA</span></button>
+    </div>
+
+    <div class="mapbox">
+      <iframe id="mapFrame" title="Mapa da unidade Doce Mem&oacute;ria" loading="lazy"
+ referrerpolicy="no-referrer-when-downgrade"
+ src="#"></iframe>
+    </div>
+
+    <div class="mapctas">
+      <a class="btn btn-g" id="rotaBtn" target="_blank" rel="noopener" data-cta="como-chegar"
+ href="#">Como chegar</a>
+      <a class="btn btn-w" id="zapUnidade" target="_blank" rel="noopener" data-cta="whats-unidade"
+ href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20unidade%20Centro.">Falar com esta unidade</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 8. CTA FINAL ================= -->
+<section class="final stripes">
+  <div class="wrap">
+    <p class="eyebrow">Seu pedido começa aqui</p>
+    <h2 class="d">Hoje ainda dá tempo<br>de adoçar o dia</h2>
+    <p class="lead">Produção diária, entrega em até 4h e um time pronto para montar o pedido com você. Fale com a gente agora. Leva menos de um minuto.</p>
+    <div class="btns">
+      <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20agora." target="_blank" rel="noopener" data-cta="final-whats">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3.1-.2-.3c-.9-1.4-1.3-2.9-1.3-4.5 0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.7 8.5-8.3 8.5z"/><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.5-.3z"/></svg>
+ Pedir agora no WhatsApp
+      </a>
+      <a class="btn btn-o" href="#" target="_blank" rel="noopener" data-cta="final-cardapio">Prefiro ver o cardápio</a>
+    </div>
+    <p style="font-size:13px;color:var(--muted);margin:18px 0 0">Também estamos no <a href="#" target="_blank" rel="noopener" style="color:var(--gold)">app de delivery</a></p>
+  </div>
+</section>
+
+<!-- ================= RODAPÉ ================= -->
+<footer>
+  <div class="wrap">
+    <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22270%22%20height%3D%22270%22%20viewBox%3D%220%200%20270%20270%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f3ece2%22/%3E%3Crect%20x%3D%2212%22%20y%3D%2212%22%20width%3D%22246%22%20height%3D%22246%22%20fill%3D%22none%22%20stroke%3D%22%238a7a66%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2210%208%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22%238a7a66%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ELOGO%3C/text%3E%3C/svg%3E" alt="Doce Mem&oacute;ria" loading="lazy">
+    <p style="color:var(--cream);font-weight:700;margin:0">Doce Mem&oacute;ria · Desde 2004</p>
+    <p style="margin:6px 0 0">Mais que sabor, uma memória afetiva.</p>
+    <nav class="fnav">
+      <a href="#produtos">Produtos</a><a href="#depoimentos">Depoimentos</a>
+      <a href="#como-pedir">Como pedir</a><a href="#faq">Dúvidas</a><a href="#unidades">Unidades</a>
+      <a href="#" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+    <p style="margin:0">WhatsApp <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">(00) 00000-0000</a></p>
+    <p style="margin:12px 0 0;font-size:11.5px;opacity:.6">© 2026 Doce Mem&oacute;ria. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- ================= BARRA FIXA MOBILE ================= -->
+<div class="sticky">
+  <a class="btn btn-w" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido." target="_blank" rel="noopener" data-cta="sticky-whats">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3.1-.2-.3c-.9-1.4-1.3-2.9-1.3-4.5 0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.7 8.5-8.3 8.5z"/><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.5-.3z"/></svg>
+ Pedir no WhatsApp
+  </a>
+</div>
+
+<script>
+(function(){
+ // --- som do vídeo ---
+ var v=document.getElementById('heroVideo'),b=document.getElementById('soundBtn');
+  var MUDO='<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M16.5 8.5 15 10l2 2-2 2 1.5 1.5 2-2 2 2L22 14l-2-2 2-2L20.5 8.5l-2 2z"/></svg>';
+  var SOM='<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15 8.6a4.5 4.5 0 0 1 0 6.8l1.3 1.5a6.5 6.5 0 0 0 0-9.8z"/><path d="M17.6 5.4a8.5 8.5 0 0 1 0 13.2l1.3 1.5a10.5 10.5 0 0 0 0-16.2z"/></svg>';
+ if(v&&b){b.addEventListener('click',function(){v.muted=!v.muted;b.innerHTML=v.muted?MUDO:SOM;b.setAttribute('aria-label',v.muted?'Ativar som':'Desativar som');if(!v.muted)v.play();});}
+
+ // --- troca de unidade no mapa ---
+ var units=[].slice.call(document.querySelectorAll('.unit')),
+ frame=document.getElementById('mapFrame'),
+ rota=document.getElementById('rotaBtn'),
+ zap=document.getElementById('zapUnidade');
+ units.forEach(function(u){
+ u.addEventListener('click',function(){
+ units.forEach(function(x){x.setAttribute('aria-selected','false')});
+ u.setAttribute('aria-selected','true');
+ var a=encodeURIComponent(u.dataset.addr),
+ nome=u.querySelector('b').textContent;
+ frame.src='#'+a+'&hl=pt-BR&z=16&output=embed';
+ rota.href='#'+a;
+ zap.href='https://wa.me/'+u.dataset.zap+'?text='+encodeURIComponent('Olá! Quero falar com a unidade '+nome+'.');
+ });
+ });
+
+ // --- reveal on scroll ---
+ if('IntersectionObserver' in window){
+ var io=new IntersectionObserver(function(es){
+ es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})
+ },{threshold:.12});
+ document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+ } else {document.querySelectorAll('.rv').forEach(function(el){el.classList.add('on')});}
+
+ // --- rastreio de CTA (plugue no seu GA4 / Meta Pixel) ---
+ document.querySelectorAll('[data-cta]').forEach(function(el){
+ el.addEventListener('click',function(){
+ var id=el.getAttribute('data-cta');
+ if(window.gtag)gtag('event','click_cta',{cta_id:id});
+ if(window.fbq)fbq('trackCustom','ClickCTA',{cta_id:id});
+ });
+ });
+})();
+</script>
+</body>
+</html>
